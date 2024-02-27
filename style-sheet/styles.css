@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("/VISIONARY-VIBE-WEBSITE/images/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    font-weight: 800;
+    font-size: 1.2rem;
+    padding: 2vw;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 0rem 0.1rem 0rem rgb(0, 0, 0);
+}
+
+#nav-img {
+    height: 6vh;
+    border-radius: 50%;
+    margin-top: 2vh;
+    margin-right: 40vw;
+}
+
+section {
+    text-shadow: 0rem 0.25rem 0rem rgb(0, 0, 0);
+    margin-top:30vh ;
+    margin-left: 15vw;
+    line-height: 5vh;
+}
+
+#heading-h2{
+    color: white;
+    width: 20vw;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#h2-span {
+    color:orange;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#our-services {
+    color: white;
+    font-size: 2rem;
+}
+
+section span {
+    color: orange;
+    font-size: 3rem;
+    font-weight: 600;
+}
