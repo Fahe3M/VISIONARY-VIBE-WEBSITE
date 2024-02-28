@@ -21,8 +21,7 @@ body {
     font-size: 1.2rem;
     padding: 2vw;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    text-shadow: 0rem 0.1rem 0rem rgb(0, 0, 0);
+    color: rgb(201, 201, 201);
 }
 
 #nav-img {
@@ -33,32 +32,31 @@ body {
 }
 
 section {
-    text-shadow: 0rem 0.25rem 0rem rgb(0, 0, 0);
-    margin-top:30vh ;
+    margin-top:20vh ;
     margin-left: 15vw;
     line-height: 5vh;
 }
 
 #heading-h2{
-    color: white;
+    color:rgb(136, 136, 136);
     width: 20vw;
     font-size: 2rem;
     font-weight: 600;
 }
 
 #h2-span {
-    color:orange;
-    font-size: 3rem;
+    color:white;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 #our-services {
-    color: white;
+    color: rgb(136, 136, 136);
     font-size: 2rem;
 }
 
 section span {
-    color: orange;
-    font-size: 3rem;
+    color: white;
+    font-size: 2rem;
     font-weight: 600;
 }
