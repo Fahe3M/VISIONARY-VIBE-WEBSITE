@@ -25,21 +25,20 @@ body {
 }
 
 #nav-img {
-    height: 6vh;
+    height:3vw;
     border-radius: 50%;
     margin-top: 2vh;
-    margin-right: 40vw;
+    margin-right: 30vw;
 }
 
 section {
-    margin-top:20vh ;
+    margin-top:15vw ;
     margin-left: 15vw;
-    line-height: 5vh;
+    line-height: 3vw;
 }
 
 #heading-h2{
     color:rgb(136, 136, 136);
-    width: 20vw;
     font-size: 2rem;
     font-weight: 600;
 }
