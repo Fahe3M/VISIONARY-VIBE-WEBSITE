@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,68 +12,113 @@ body {
     background-attachment: fixed;
 }
 
-.navbar {
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.nabar {
     height: 10vh;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    background-color: gray;
 }
 
-.navbar a {
-    font-weight: 800;
-    font-size: 1.2rem;
-    padding: 2vw;
-    text-decoration: none;
-    color: rgb(201, 201, 201);
+.nav-logo {
+    display: flex;
 }
 
-#nav-img {
-    height:3vw;
+.nav-logo>img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
     border-radius: 50%;
-    margin-right: 30vw;
-    border: 1px solid rgb(218, 218, 218);
+    border: 1.5px solid white;
+    position: relative;
+    left: 10vw;
+    top: 3.2vh;
 }
 
-section {
-    margin-top:15vw ;
-    margin-left: 15vw;
-    line-height: 3vw;
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
 }
 
-#heading-h2{
-    color:rgb(136, 136, 136);
-    font-size: 2rem;
-    font-weight: 600;
+.nav-links>a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    right: 10vw;
+    padding-right: 30px;
+    font-size: 1.3rem;
+    font-weight: 800;
 }
 
-#h2-span {
-    color:white;
-    font-size: 2rem;
-    font-weight: 600;
+
+.vvb-name {
+    position: relative;
+    top: 30vh;
+    left: 20vw;
+    line-height: 5vh;
+
 }
 
-#our-services {
-    color: rgb(136, 136, 136);
-    font-size: 2rem;
-}
-
-section span {
+.vvb-name>h2,#our-services,#auto-typed,#h2-span{
     color: white;
     font-size: 2rem;
     font-weight: 600;
 }
 
+#h2-span,#auto-typed {
+    font-weight: 900;
+}
 
 
+.services {
+    height: 60vh;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    top: 30vh;
+    margin: 10%;
+    padding: 10%;
+    padding-top: 5%;
+    border-radius: 3rem;
+}
+
+.services>h2 {
+    text-align: center;
+    color: white;
+    padding-bottom: 70px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.services>ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5vw;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
 
 
+.services>ul>li {
+    font-size: 1.4rem;
+    width: auto;
+    color: white;
+    font-weight: 600;
+}
 
 
-
-
-
-
-
-
-
-@media (max-width: 1080px) {
+.contact {
+    height: 30vh;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10%;
+    margin-top: 30%;
+    border-radius:30px;
+    
+    
 }
