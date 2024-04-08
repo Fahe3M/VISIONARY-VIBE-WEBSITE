@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Landing Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  body {
+    padding-top: 4.5rem;
+  }
+
+  .jumbotron {
+    background-image: url('background.jpg');
+    background-size: cover;
+  }
+
+  .jumbotron h1 span {
+    font-weight: bold;
+  }
+
+  .feature-icon,
+  .service-icon {
+    margin-bottom: 1.5rem;
+  }
+
+  .feature-icon i,
+  .service-icon i {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 1rem;
+  }
+
+  .footer {
+    padding: 2rem 0;
+  }
+</style>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">VISIONARY VIBE DESIGN AGENCY</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#graphic-design">Graphic Design</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#web-development">Web Development</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#data-science">Data Science</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-services">About Services</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="jumbotron jumbotron-fluid text-white text-center bg-dark">
+    <div class="container">
+      <h2 class="display-6">Welcome to <span class="text-primary">VISIONARY VIBE</span></h2>
+      
+      <a href="/templates/contact.html"><button class="btn btn-primary btn-lg">Get Started</button></a>
+    </div>
+  </header>
+
+  <section id="features" class="container text-center my-5">
+    <p class="lead">Where creativity meets innovation.</p>
+    <h2>Features</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="feature-icon">
+          <i class="fas fa-mobile-alt fa-4x text-primary"></i>
+        </div>
+        <h3>Responsive Design</h3>
+        <p>Our landing page is fully responsive and looks great on all devices.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon">
+          <i class="fas fa-chart-bar fa-4x text-primary"></i>
+        </div>
+        <h3>Data Analytics</h3>
+        <p>We provide detailed analytics to help you track your website's performance.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon">
+          <i class="fas fa-cogs fa-4x text-primary"></i>
+        </div>
+        <h3>Customization</h3>
+        <p>Customize your landing page to match your brand's unique style and identity.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="graphic-design" class="bg-light py-5">
+    <div class="container text-center">
+      <h2>Graphic Design Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-icon">
+            <i class="fas fa-paint-brush fa-4x text-primary"></i>
+          </div>
+          <h3>Logo Design</h3>
+          <p>Create a memorable brand identity with our professional logo design services.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="service-icon">
+            <i class="fas fa-image fa-4x text-primary"></i>
+          </div>
+          <h3>Visual Branding</h3>
+          <p>Transform your brand's visual identity with stunning graphics and artwork.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="service-icon">
+            <i class="fas fa-palette fa-4x text-primary"></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Create engaging user experiences with our intuitive UI/UX design services.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="web-development" class="py-5">
+    <div class="container text-center">
+      <h2>Web Development Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-icon">
+            <i class="fas fa-laptop-code fa-4x text-primary"></i>
+          </div>
+          <h3>Responsive Websites</h3>
+          <p>We build responsive and user-friendly websites that work seamlessly on all devices.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="service-icon">
+            <i class="fas fa-code fa-4x text-primary"></i>
+          </div>
+          <h3>Custom Development</h3>
+          <p>Get tailor-made solutions for your specific business needs with our custom development services.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="service-icon">
+            <i class="fas fa-server fa-4x text-primary"></i>
+          </div>
+          <h3>Hosting Solutions</h3>
+          <p>Enjoy reliable hosting solutions for your website to ensure maximum uptime and performance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="data-science" class="bg-light py-5">
+    <div class="container text-center">
+      <h2>Data Science Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-icon">
+            <i class="fas fa-database fa-4x text-primary"></i>
+          </div>
+          <h3>Data Analysis</h3>
+          <p>Gain valuable insights from your data with our advanced data analysis techniques.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="service-icon">
+            <i class="fas fa-chart-line fa-4x text-primary"></i>
+          </div>
+          <h3>Forecasting</h3>
+          <p>Predict future trends and make informed decisions based on accurate forecasting models.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="service-icon">
+            <i class="fas fa-brain fa-4x text-primary"></i>
+          </div>
+          <h3>Machine Learning</h3>
+          <p>Harness the power of machine learning algorithms to automate processes and improve efficiency.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-services" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3 text-center">
+          <h2>About Our Services</h2>
+          <p>Our services are designed to help businesses of all sizes thrive in the digital world. Whether you need
+            stunning graphic design, robust web development, or advanced data science solutions, we've got you covered.
+            Let us help you turn your ideas into reality and achieve your business goals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer bg-dark text-white py-3">
+    <div class="container text-center">
+      <p>&copy; 2024 All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS, jQuery, and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
